@@ -44,7 +44,7 @@ const App = () => {
       <p>Idade: {dados.idade}</p>
       <p style={styleActive}>{pActive}</p>
       <p>R$ {spend}</p>
-      <p>{spend > 10000 ? 'Você está gastando pra caralho' : null}</p>
+      <p>{spend > 10000 ? 'Você está gastando muito' : null}</p>
     </div>
   );
 };
